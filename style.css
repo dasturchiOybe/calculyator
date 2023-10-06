@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #25cc40;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+input{
+    border: none;
+    background-color: transparent;
+}
+
+.calculator{
+    border-radius: 40px;
+    background: linear-gradient(166deg, #FEFEFE 0%, #F9F9F9 12.84%, #F3F3F3 32.53%, #E5E5E5 100%);
+    width: 423px;
+    height: 858px;
+    margin: 0 auto;
+    padding-top: 52px;
+}
+
+.table{
+    display: flex;
+    justify-content: end;
+    padding-right: 34px;
+    align-items: center;
+    padding-bottom: 141px;
+}
+.history svg{
+    width: 30px;
+    height: 30px;
+}
+.dark{
+    margin: 0 auto;
+    width: 122px;
+    height: 44px;
+    border-radius: 40px;
+    background: #A9DCFD;
+    display: flex;
+    justify-content: space-between;
+}
+.dark .dark1{
+    cursor: pointer;
+    width: 68px;
+    height: 44px;
+    align-items: center;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 40px;
+    background: #D8EEFF;
+}
+.dark1 svg{
+    width: 29.737px;
+    height: 29.737px;
+}
+.dark .dark2{
+    cursor: pointer;
+    width: 68px;
+    height: 44px;
+    align-items: center;
+    padding-top: 7px;
+    text-align: center;
+}
+.dark2 svg{
+    width: 29.737px;
+    height: 29.737px;
+}
+.top #last{
+    display: flex;
+    width: 355px;
+    height: 35px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(5, 5, 5, 0.822);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.natija{
+    display: flex;
+    justify-content: space-between;
+}
+.natija .left{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    color: #373737;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.natija .right{
+    display: flex;
+    width: 165px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    color: #373737;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.bottom{
+    fill: var(--aa, linear-gradient(244deg, #9EE8FF 8.14%, #5ACEFF 27.9%, #79AFFF 56.94%, #2D5FDE 84.11%));
+    width: 423px;
+    height: 537px;
+    border-radius: 30px;
+    box-shadow: 0px -5px 70px 0px #0000001a;
+}
+.end{
+    width: 175px;
+    height: 5px;
+    border-radius: 25px;
+    background: #6396C5;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+.num{
+    padding-top: 49px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.amallar{
+    margin-left: 25px;
+    width: 70px;
+    height: 430px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.qoshimcha-amallar{
+    margin-bottom: 20px;
+    width: 260px;
+    height: 70px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+}
+.table-num{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+}
+.table-num button{
+    box-shadow: 0px 3px 15px 0px #003661;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #373737;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 50%;
+    background-color: #c4e4e4;
+
+}
+button{
+    border-radius: 50%;
+    /* background-color: #6396c565; */
+    box-shadow: 0px 3px 15px 0px #003661;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #c4e4e4;
+
+}
+ button{
+    box-shadow: 0px 3px 15px 0px #003661;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #373737;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: #c4e4e4;
+
+}

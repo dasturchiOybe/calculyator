@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="calculator">
+    <div class="table">
+      <div class="dark">
+        <div class="dark1">
+          <i class="fa-regular fa-sun"></i>
+        </div>
+        <div class="dark2">
+          <i class="fa-regular fa-moon"></i>
+        </div>
+      </div>
+      <div class="history">
+        <i class="fa-solid fa-clock-rotate-left"></i>
+      </div>
+    </div>
+    <div class="top container">
+      <div class="natija">
+        <div class="left"><i class="fa-solid fa-equals"></i></div>
+        <div class="right"><span id="result" ></span></div>
+      </div>
+      <p id="last"> 0 </p>
+    </div>
+    <div class="bottom">
+      <div class="container num">
+
+        <div class="number">
+          <div class="qoshimcha-amallar">
+            <button id="equals" onclick="evaluateExpression()">=</button>
+            <button id="clear" onclick="clearResult()">AC</button>
+            <button id="clear" onclick="clearResult()">C</button>
+            <!-- <button class="operator" onclick="appendChar('%')">%</button> -->
+          </div>
+          <div class="table-num">
+            <button onclick="appendChar('7')">7</button>
+            <button onclick="appendChar('8')">8</button>
+            <button onclick="appendChar('9')">9</button>
+            <button onclick="appendChar('4')">4</button>
+            <button onclick="appendChar('5')">5</button>
+            <button onclick="appendChar('6')">6</button>
+            <button onclick="appendChar('1')">1</button>
+            <button onclick="appendChar('2')">2</button>
+            <button onclick="appendChar('3')">3</button>
+            <button onclick="appendChar('.')">.</button>
+            <button onclick="appendChar('0')">0</button>
+            <button onclick="appendChar('00')">00</button>
+          </div>
+
+        </div>
+        <div class="amallar">
+          <button class="operator" onclick="appendChar('/')">/</button>
+          <button class="operator" onclick="appendChar('*')">*</button>
+          <button class="operator" onclick="appendChar('-')">-</button>
+          <button class="operator" onclick="appendChar('+')">+</button>
+          <button id="equals" onclick="evaluateExpression()">=</button>
+        </div>
+        
+      </div>
+
+      <div class="end"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
