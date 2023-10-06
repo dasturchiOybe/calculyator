@@ -217,3 +217,11 @@ button{
     background-color: #c4e4e4;
 
 }
+
+#default{
+    border: none;
+    background: transparent;
+    color: #000;
+    font-size: 35px;
+    width: 50px;
+}

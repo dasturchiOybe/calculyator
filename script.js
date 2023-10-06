@@ -3,6 +3,7 @@ let dark2 = document.querySelector('.dark2');
 let dark = document.querySelector('.dark');
 let bottom = document.querySelector('.bottom');
 let button = document.querySelectorAll('button');
+// let ac = document.querySelector('.aclear');
 
 dark1.addEventListener('click', () => {
     dark.style.background = '#A9DCFD';
@@ -20,6 +21,11 @@ dark2.addEventListener('click', () => {
     bottom.style.background = '#003661';
 })
 
+
+function Aclear() {
+  document.getElementById('result').textContent = '';
+  document.getElementById('last').textContent = '0';
+}
 
 
 function clearResult() {
@@ -94,3 +100,4 @@ function isValidExpression(expression) {
 
   return parentheses === 0;
 }
+
