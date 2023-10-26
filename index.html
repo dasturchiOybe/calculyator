@@ -12,10 +12,10 @@
   <div class="calculator">
     <div class="table">
       <div class="dark">
-        <div class="dark1">
+        <div class="dark1" onclick="sun()">
           <i class="fa-regular fa-sun"></i>
         </div>
-        <div class="dark2">
+        <div class="dark2" onclick="moon()">
           <i class="fa-regular fa-moon"></i>
         </div>
       </div>
@@ -36,7 +36,7 @@
         <div class="number">
           <div class="qoshimcha-amallar">
             <button id="equals" onclick="evaluateExpression()">=</button>
-            <button id="clear " onclick="Aclear()">AC</button>
+            <button id="clear " onclick="refresh">AC</button>
             <button id="clear" onclick="clearResult()">C</button>
             <!-- <button class="operator" onclick="appendChar('%')">%</button> -->
           </div>

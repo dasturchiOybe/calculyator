@@ -3,28 +3,21 @@ let dark2 = document.querySelector('.dark2');
 let dark = document.querySelector('.dark');
 let bottom = document.querySelector('.bottom');
 let button = document.querySelectorAll('button');
-// let ac = document.querySelector('.aclear');
 
-dark1.addEventListener('click', () => {
+function sun() {
     dark.style.background = '#A9DCFD';
     dark1.style.background = '#D8EEFF';
     dark2.style.background = 'transparent';
     dark.style.color = '#1f1e1e';
     bottom.style.background = '#fdfdfd23';
-})
-dark2.addEventListener('click', () => {
+}
+function moon() {
     dark.style.background = '#1B6A9C';
     dark1.style.background = 'transparent';
     dark2.style.background = '#003661';
     dark2.style.borderRadius = '40px';
     dark.style.color = '#FBFBFBCC';
     bottom.style.background = '#003661';
-})
-
-
-function Aclear() {
-  document.getElementById('result').textContent = '';
-  document.getElementById('last').textContent = '0';
 }
 
 
